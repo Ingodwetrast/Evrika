@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1,5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html {
+     font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+
+.wrap.row {
+    display: block;
+    position: relative;
+    margin:0 auto;
+    max-width: 1200px;
+}
+
+
+
+.right-menu.col-md-3.col-xs-12 {
+    background-color: #228b22;
+    color: #ffffff;
+}
+
+h2 {
+   font-size: 1.7em; 
+    padding: 10px 5px 10px 5px;
+}
+
+
+h3 {
+    font-size: 1.5em; 
+     padding: 10px 5px 10px 5px;
+    color: #228b22;
+}
+
+
+p {
+    padding: 5px;
+}
+
+nav {
+        padding: 20px 5px 0 20px;
+}
+
+
+nav.navbar.navbar-default {
+    background: none;
+    border: none;
+    color:##ffffff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.nav>li>a:hover {
+  background: none;
+}
+
+
+.navbar-default .navbar-header>a {
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.nav>li>a {
+    padding: 0;
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.nav.nav-stacked {
+    padding-top: 40px;
+ 
+}
+
+.city.row {
+    padding-top: 80px;
+}
+
+.input-group-btn {
+    width: 100%;
+    padding: 20px 5px 0 20px;
+}
+
+.delivery.row {
+     background-color: rgba(0, 4, 0, 0.5);
+    padding: 10px;
+}
+
+.smalltext {
+    font-size: 0.8em;
+}
+
+
+.breadcrumb {
+    background: none;
+}
+
+.advantage li {
+    font-family: sans-serif;
+}
+
+
+.glyphicon.glyphicon-menu-right {
+    color: #228b22;
+}
+
+
+.media {
+    padding-bottom: 20px;
+}
+
+.media-heading {
+    font-weight: bold;
+
+}
